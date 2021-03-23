@@ -5,7 +5,7 @@ import { first, map } from 'rxjs/operators';
 import { CurrencyService } from '../../system/currency.service';
 
 @Component({
-  selector: 'app-tab1',
+  selector: 'app-currency',
   templateUrl: 'currency.page.html',
   styleUrls: ['currency.page.scss']
 })

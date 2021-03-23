@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-import { ApiConstants } from '../constants/api.constant'
+import { ApiConstants } from '../constants/api.constant';
 
 @Injectable({ providedIn: 'root'})
 export class CurrencyService{
